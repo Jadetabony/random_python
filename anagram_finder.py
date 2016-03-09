@@ -1,3 +1,8 @@
+"""Function anagram take a list of words, breaks them down into a 
+list of a list of the individual characters. Then, each list within the new list is sorted.
+Then list comprehension is used to create a list of indeces in for which there are 
+duplicates in the sorted list.  Then I create one last list in which I take the 
+values of original words list that correspond to the indeces in my indx list."""
 
 input_list = ['bat', 'rats', 'god', 'dog', 'cat', 'arts', 'star']
 
